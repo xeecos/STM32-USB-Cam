@@ -1,0 +1,19 @@
+{
+  "name": "uvc-cam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron ./src/window.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bmp-js": "^0.1.0",
+    "demosaic": "^1.0.0",
+    "electron": "^29.1.5",
+    "jpeg-js": "^0.4.4",
+    "usb": "^2.12.1"
+  }
+}
